@@ -6,7 +6,7 @@ const CommentDAO = require('../module/comment-dao');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   console.log('here');
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Comments' });
 });
 
 router.get('/comment', async function(req, res) {
